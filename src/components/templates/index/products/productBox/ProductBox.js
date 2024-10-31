@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProductBox({ imgUrl, name, model, run, gearbox, isExist, location, price, advancePay, monthly }) {
     return (
-        <div className="flex items-center flex-col gap-3 relative w-full md:h-52 md:p-5 shadow-lg bg-white shadow-zinc-100 rounded-2xl -z-10 xl:z-0">
+        <div className="flex items-center flex-col gap-3 relative w-full md:h-56 md:p-5 shadow-lg bg-white shadow-zinc-100 rounded-2xl -z-10 xl:z-0">
             <div className=" flex items-start  gap-5 h-full w-full ">
                 <div className="  rounded-tr-2xl rounded-bl-2xl md:rounded-2xl overflow-hidden h-36 md:h-full w-96 relative">
 

@@ -11,7 +11,7 @@ import { dailyPrice } from "../../../../../../database/db";
 
 export default function Header() {
     return (
-        <div className=" group relative flex flex-col gap-5 p-5 shadow-lg bg-zinc-100 md:bg-inherit  shadow-zinc-100 rounded-2xl overflow-hidden -z-10 xl:z-0">
+        <div className=" group relative flex flex-col gap-5 p-5 shadow-lg bg-zinc-100 md:bg-inherit  shadow-zinc-100 rounded-2xl overflow-hidden  xl:z-0">
             <div className=" flex justify-between items-center">
                 <div className=" flex justify-between md:justify-normal flex-row-reverse md:flex-row w-full md:w-auto  items-center gap-3">
                     <Image
