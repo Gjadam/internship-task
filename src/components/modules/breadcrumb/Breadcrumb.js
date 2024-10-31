@@ -9,7 +9,7 @@ export default function Breadcrumb() {
             <div className=" flex items-center gap-3">
                 <Image
                     alt="home"
-                    src='/images/png/icons/home.png'
+                    src='/images/png/icons/Home.png'
                     width={14}
                     height={14}
                 />

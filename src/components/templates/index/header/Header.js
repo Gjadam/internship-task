@@ -1,7 +1,10 @@
 import Image from "next/image";
+
 // Icons
 import { PiLineVertical } from "react-icons/pi";
 import { IoIosArrowDown } from "react-icons/io";
+
+// Components
 import Button from "@/components/modules/button/Button";
 
 export default function Header() {

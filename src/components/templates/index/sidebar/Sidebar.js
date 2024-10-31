@@ -1,15 +1,16 @@
 'use client'
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
+// Components
 import Accordion from "./accordions/accordion/Accordion";
 import Filters from "./filters/Filters";
-
-// Database
-import { accordions } from "../../../../../database/db";
 import MultiAccordion from "./accordions/multiAccordion/MultiAccordion";
 import Seller from "./seller/Seller";
 import RadioBox from "./radioBox/RadioBox";
-import { useEffect, useState } from "react";
-import Image from "next/image";
+
+// Database
+import { accordions } from "../../../../../database/db";
 
 export default function Sidebar() {
     const [isOpenSidebar, setIsOpenSidebar] = useState(false)

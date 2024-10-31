@@ -2,6 +2,7 @@ import Image from "next/image";
 
 // Icons
 import { IoIosArrowBack ,IoIosArrowDown } from "react-icons/io";
+
 // Components
 import Box from "./Box";
 

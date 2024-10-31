@@ -1,15 +1,17 @@
 'use client'
 import { useState } from "react";  
+
+// Icons
 import { IoIosArrowDown } from "react-icons/io";  
 
 export default function MultiAccordion({ accordion }) {  
-  const [openIndex, setOpenIndex] = useState(null); // برای ردیف باز شده فعلی  
+  const [openIndex, setOpenIndex] = useState(null);   
 
   const toggleAccordion = (index) => {  
     if (openIndex === index) {  
-      setOpenIndex(null); // اگر روی ردیف باز شده کلیک شود، آن را ببندید  
+      setOpenIndex(null); 
     } else {  
-      setOpenIndex(index); // ردیف جدید را باز کنید  
+      setOpenIndex(index);
     }  
   };  
 

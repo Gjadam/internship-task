@@ -1,13 +1,15 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 // Database
 import { navLinks } from "../../../../database/db";
+
+// Components
 import NavLink from "./navLink/NavLink";
 import DarkMode from "./darkMode/DarkMode";
 import Button from "../button/Button";
-import { useState } from "react";
 import MobileNavLink from "./mobileNavLink/MobileNavLink";
 
 export default function Navbar() {
@@ -39,7 +41,7 @@ export default function Navbar() {
                         <input type="text" placeholder="جست و جو..." className=" outline-none" />
                         <Image
                             alt="search"
-                            src='/images/svgs/icons/search.svg'
+                            src='/images/svgs/icons/Search.svg'
                             width={24}
                             height={24}
                         />

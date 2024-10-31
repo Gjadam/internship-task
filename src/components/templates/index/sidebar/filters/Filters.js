@@ -1,3 +1,5 @@
+
+// Components
 import Box from "./Box";
 
 export default function Filters() {

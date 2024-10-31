@@ -2,11 +2,10 @@
 // Components
 import Header from "@/components/templates/index/products/header/Header";
 import ProductBox from "./productBox/ProductBox";
+import Banner from "./banner/Banner";
 
 // DataBase
 import { products } from "../../../../../database/db";
-import Image from "next/image";
-import Banner from "./banner/Banner";
 
 export default function Products() {
     return (
