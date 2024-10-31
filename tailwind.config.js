@@ -8,10 +8,37 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       primary: "#0F0F10",
+      },
+      backgroundImage: {  
+        'banner-liner': 'linear-gradient(268.91deg, #FF9500 -6.67%, #FFD600 112.08%);',  
+      },  
+      borderWidth: {
+        1: "1px"
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.container-fluid': {
+          width: '100%',
+          maxWidth: '100%',
+          paddingLeft: '5rem',
+          paddingRight: '5rem',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        },
+        '.container-none': {
+          width: '100%',
+          maxWidth: '100%',
+          paddingLeft: '2.5rem',
+          paddingRight: '2.5rem',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        },
+      });
+    },
+
+  ],
 };
